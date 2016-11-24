@@ -1,0 +1,43 @@
+html body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 15px;
+  background-color: #f2f3f5;
+  margin: 0;
+
+  .header {
+    background-color: #3b5998;
+    border-bottom: 1px solid #29487d;
+    color: #ffffff;
+
+    // background-color: #ff6600;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+
+    .navbar {
+      max-width: 800px;
+      box-sizing: border-box;
+      margin: 0px auto;
+
+      .logo {
+        width: 24px;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .navbar-header {
+        a {
+          color: #ffffff;
+          font-weight: bold;
+        }
+
+      }
+    }
+  }
+}
