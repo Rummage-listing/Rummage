@@ -1,0 +1,13 @@
+#content-wrapper {
+  background-color: rgb(231, 237, 238);
+  padding-top: 50px;
+  min-height: 500px;
+
+  .content {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 3px;
+  }
+}
